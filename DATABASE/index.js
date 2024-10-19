@@ -1,10 +1,10 @@
 const express = require("express");
 const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
-const jwtPassword = "your_token";
+const jwtPassword = "your_password";
 
 mongoose.connect(
-"your_conn_string",
+"your_db_connection_string",
 ).then(()=>{
   console.log('connected to mongodb')
 });

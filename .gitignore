@@ -1,1 +1,6 @@
+.env
 HTTP-SERVER-1/node_modules/
+USER-VALIDATION/node_modules/
+AUTHENTICATION/node_modules/
+DATABASE/node_modules/
+DOM/node_modules/
